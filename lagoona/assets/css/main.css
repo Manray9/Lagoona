@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-weight: 400;
+    font-family: "Muller";
+    font-style: normal;
+    background: #E5E5E5;
+}
+
+.none {
+    display: none !important;
+}
+button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 27px 0 27px 45px;
+}
+
+li + li {
+    padding-left: 45px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.header__container{
+    width: 1170px;
+    margin: 0 auto;
+    background-color: rgb(179, 142, 212);
+}
+
+.header__main{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.number{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #666666;
+    padding: 47px 0;
+}
+
+.header__btn{
+    display: flex;
+    margin: 45px 0;
+    width: 155px;
+    height: 24px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+.button img{
+    width: 24px;
+    height: 24px;
+}
+
+button p{
+    margin: 0 0 0 5px;
+    font-size: 16px;
+    line-height: 16px;
+
+    color: #CC9933;
+}
+
+/* navigation */
+
+.header__navigation{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 70px;
+}
+
+
+
+.navigation__btn{
+    width: 107px;
+    height: 42px;
+
+    margin: 14px 0;
+    
+
+    border: 1px solid #CC9933;
+    border-radius: 10px;
+
+    font-size: 16px;
+    line-height: 16px;
+
+    color: #CC9933;
+}
+
+.navigation__btn:first-child{
+    margin-left: 114px;
+}
+.navigation__btn + .navigation__btn{
+    width: 177px;
+    height: 42px;
+    margin-left: 35px;
+    margin-right: 45px;
+}
+
+/* special offer */
+
+.main-title{
+    margin-left: 40px;
+    font-size: 40px;
+    line-height: 40px;
+
+    color: #333333;
+}
+
+.special__offer-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-img{
+    width: 573px;
+    height: 258px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
