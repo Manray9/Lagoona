@@ -23,6 +23,10 @@ button{
     cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+}
+
 ul{
     list-style-type: none;
     align-items: center;
@@ -126,6 +130,7 @@ button p{
 
 .main-title{
     margin-left: 40px;
+    margin-bottom: 20px;
     font-size: 40px;
     line-height: 40px;
 
@@ -135,11 +140,88 @@ button p{
 .special__offer-img{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .special-img{
     width: 573px;
     height: 258px;
     border-radius: 15px;
-    flex-wrap: wrap;
+    word-break: inherit;
+}
+ .special-img:nth-child(2){
+    width: 573px;
+    height: 540px;
+}
+
+.special-img:nth-child(1) {
+    margin-bottom: 24px;
+}
+
+/* Ниже костыль карты Крит */
+
+.special-img:nth-child(3) {
+    margin-top: -258px;
+    margin-bottom: 70px;
+} 
+
+/* About main */
+
+
+.about-subtitle{
+    width: 888px;
+    font-size: 16px;
+    line-height: 32px;
+
+    color: #000000;
+
+    margin-bottom: 70px;
+}
+
+/* services main */
+
+.card__services{
+    width: 573px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.sevices__logo{
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+
+.card__services-text{
+    padding-top: 26px;
+    padding-left: 45px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+
+.sevices__link{
+    display: flex;
+    color: #CC9933;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+}
+a .services__row{
+    margin-left: 10px;
+}
+
+.services-subtitle{
+    width: 440px;
+    padding-left: 45px;
+    font-size: 16px;
+    line-height: 32px;
+
+
+
+    color: #000000;
+
 }
