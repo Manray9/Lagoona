@@ -241,3 +241,47 @@ a .services__row{
 }
 
 /* main Advantages */
+
+.main__advantages-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advantages-card{
+    width: 276px;
+    height: 276px;
+
+    margin-left: 22px;
+    margin-bottom: 22px;
+
+    background: #FFFFFF;
+    border-radius: 15px;
+
+}
+
+
+.advantages-card:nth-child(1), .advantages-card:nth-child(5){
+    margin-left: 0;
+}
+
+.advantages-card:nth-child(5),.advantages-card:nth-child(6),
+.advantages-card:nth-child(7),.advantages-card:nth-child(8){
+    margin-bottom: 0;
+}
+
+.advantages-card img{
+    margin-top: 40px;
+    margin-left: 45px;
+}
+.advantages-card p{
+    margin-top: 10px;
+    margin-left: 45px;
+
+    width: 189px;
+    height: 128px;
+
+    font-size: 16px;
+    line-height: 32px;
+
+    color: #000000;
+}
