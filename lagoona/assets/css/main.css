@@ -180,13 +180,27 @@ button p{
 
 /* services main */
 
+.main__services{
+    margin-bottom: 70px;
+}
+
+.main__card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .card__services{
     width: 573px;
     background: #FFFFFF;
     border-radius: 15px;
     align-items: center;
+    margin-bottom: 24px;
 }
-
+.card__services:nth-child(3), .card__services:nth-child(4){
+    margin-bottom: 0;
+}
 .sevices__logo{
     border-radius: 15px 15px 0px 0px;
 }
@@ -225,3 +239,5 @@ a .services__row{
     color: #000000;
 
 }
+
+/* main Advantages */
